@@ -1,0 +1,81 @@
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+/* header */
+.a-hover:hover,
+.t-hover:hover {
+    color: blue !important;
+}
+
+.logo-photo1 {
+    width: 25px;
+}
+
+.logo-photo2 {
+    width: 10px;
+}
+
+.w-2 {
+    width: 50px;
+}
+
+/* main */
+.ax1{
+transform: :translate(0.3%);
+overflow:hidden;
+}
+
+.axx:hover{
+transform: scale(1.1);
+}
+
+.fs{
+font-size: 12px;
+}
+
+.blue-box{
+    background-color: rgb(40, 40, 112);
+    height: 600px;
+}
+
+.blue-box img{
+    width: 1500px;
+    height: 500px;
+    margin-left: 300px;
+}
+
+.ax{
+    width: 500px;
+    height: 170px;
+}
+
+.T{
+    height: 400px;
+}
+
+.TT{
+    height: 200px;
+}
+
+/* footer */
+.d{
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-left: 60px;
+}
+.d-{
+width: 150px;
+justify-content: center;
+align-items: center;
+}
+
+.d--{
+    margin-left: 600px;
+}
+
+.end-footer a:hover{
+    color: blue !important;
+    text-decoration: underline blue;
+}
